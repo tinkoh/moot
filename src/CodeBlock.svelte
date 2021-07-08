@@ -63,7 +63,7 @@ pre {
                 tag = "",
                 writingTag = false,
                 tagOpen = false,
-                typeSpeed = 0.5,
+                typeSpeed = 5,
                 tempTypeSpeed = 0;
     
             var type = function() {
@@ -92,12 +92,12 @@ pre {
                         tempTypeSpeed = 0;
                     }
                     else {
-                        tempTypeSpeed = (Math.random() * typeSpeed) + 1;
+                        tempTypeSpeed = (Math.random() * typeSpeed) + 50;
                     }
                     t.innerHTML += HTML[cursorPosition];
                 }
                 if (writingTag === true && HTML[cursorPosition] === ">") {
-                    tempTypeSpeed = (Math.random() * typeSpeed) + 1;
+                    tempTypeSpeed = (Math.random() * typeSpeed) + 50;
                     writingTag = false;
                     if (tagOpen) {
                         var newSpan = document.createElement("span");
