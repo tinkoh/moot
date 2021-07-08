@@ -21,6 +21,7 @@ import CodeBlock from './CodeBlock.svelte';
 	<div id='code'>
 	<CodeBlock />
 	</div>
+	<div id='attr'><p>Made with 💙 by Given Suman</p>
 </main>
 
 <style>
@@ -79,7 +80,11 @@ h1, h3 {
 #vsc {
 	padding-right: 10px;
 }
+#attr {
+	margin-top: auto;
+}
 #code {
+	height: 300px;
 	width: 5px;
 	overflow-x: visible;
 	position: relative;
