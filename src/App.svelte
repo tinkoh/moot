@@ -12,7 +12,7 @@ import CodeBlock from './CodeBlock.svelte';
 		<p>
 			moot is a dark theme designed to maintain syntax distinction for every hacker. <br/>
 			moot's design philosophy is based on the work of <a href='https://personal.sron.nl/~pault/'>Paul Tol</a>.
-			Try it and see for yourself!
+			Try it out!
 		</p>
 		<a id='button' href='https://marketplace.visualstudio.com/items?itemName=GivenSuman.moot'>
 			<img id='vsc' alt='visual studio code logo' src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>Get moot for VSCode 
