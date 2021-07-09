@@ -5,7 +5,7 @@
 <span class='p'>const</span><span class='b'> rndEmoji =</span><span>()</span><span class='p'>→</span>{'{'} <!-- Needs to be unindented for <pre> to work -->
     <span class='p'>let</span><span class='r'> emojisObj</span><span class='b'> =</span><span class='y nm'> Object</span>.<span class='b nm'>keys</span>(<span class='r nm'>emojis</span>);
     <span class='p'>let</span><span class='r'>randomKey</span><span class='b'>=</span><span class='r nm'>emojisObj</span>[<span class='y nm'>Math</span>.<span class='b nm'>floor</span>(<span class='y nm'>Math</span>.<span class='b nm'>random</span><span>()</span><span>*</span><span class='y nm'>emojisObj</span>.<span class='r nm'>length</span>)];
-    <span class='p'>return</span><span class='r nm'>emojis</span>[<span class='r nm'>randomKey</span>];
+    <span class='p'>return</span><span class='r nm'>emojis</span>[<span class='r nm'>randomKey</span>]{';'}
     </pre>
 </main>
 
