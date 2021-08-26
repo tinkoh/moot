@@ -3,10 +3,16 @@
     moot is a dark theme designed to maintain syntax distinction for every hacker.
     Its design philosophy is based on the work of <a href='https://personal.sron.nl/~pault/'>Paul Tol</a>. Try it out!
     </p>
-    <button class='flex transform'>
+    <button class='flex transform' on:click={handleClick}>
         <img src='/vsc_logo.png' alt='vscode logo'> Get moot for VSCode
     </button>
 </div>
+
+<script>
+function handleClick() {
+    window.open('https://marketplace.visualstudio.com/items?itemName=GivenSuman.moot', '_self')
+}
+</script>
 
 <style>
 .flex {
